@@ -15,7 +15,7 @@ if hasattr(K, 'symbolic'):
     symbolic = K.symbolic
 
 
-class GradientAccumulation(keras.optimizers.Optimizer):
+class GradientAccumulation(tf.keras.optimizers.Optimizer):
     """Optimizer wrapper for gradient accumulation.
 
     # Arguments
